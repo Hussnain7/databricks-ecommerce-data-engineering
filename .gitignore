@@ -1,0 +1,45 @@
+# Secrets and local environment
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+secrets/
+credentials/
+.databrickscfg
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+env/
+ENV/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+
+# IDE and operating-system files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Logs and temporary files
+*.log
+tmp/
+temp/
+.cache/
+
+# Local data outputs (keep the project's intended sample CSVs only if safe to share)
+outputs/
+artifacts/
+*.tmp
+
+# Terraform / cloud local state, if added later
+.terraform/
+*.tfstate
+*.tfstate.*
